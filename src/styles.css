@@ -1,10 +1,61 @@
+/* Estils generals */
 body {
-  height: 100vh;
-  color: #1f1f1f;
-  background: linear-gradient(to bottom, #bada55, #c0ffee);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
-h1 {
-    color: hotpink;
-    font-family: cursive;
-  }
+/* Estils del capçal */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estils de la barra de navegació */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #45a049;
+}
+
+/* Estils de la secció */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estils del peu de pàgina */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
